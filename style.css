@@ -11,12 +11,12 @@ section{
 }
 .rightBasket,.leftBasket{
     
-    background-color: rgb(52, 60, 63);
+    background-color: rgb(17, 99, 126);
     padding: 30px;
     border-radius: 10px;
 }
 div:hover{
-    background-color: rgb(17, 99, 126);
+    background-color: rgb(52, 60, 63);
     cursor: pointer;
 }
 p{
