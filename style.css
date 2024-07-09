@@ -1,0 +1,49 @@
+section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* background-color: mediumseagreen; */
+    height: 400px;
+}
+.rightBasket,.leftBasket{
+    
+    background-color: rgb(52, 60, 63);
+    padding: 30px;
+    border-radius: 10px;
+}
+div:hover{
+    background-color: rgb(17, 99, 126);
+    cursor: pointer;
+}
+p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+button{
+    
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+button img{
+    max-height: 50px;
+    color: white;
+}
+
+span
+{
+    background-color: rgb(17, 99, 126);
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+}

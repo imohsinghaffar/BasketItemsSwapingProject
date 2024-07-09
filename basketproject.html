@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket Items Swaping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="display">
+        <div class="rightBasket">
+            <P class="quantity1">100</P>
+            <P>Basket 1</P>
+        </div>
+
+        <button class="arrow1" onclick="updateRightBasket()">
+            <img class="RightArrow" src="img/right_arrow.png" alt="">
+        </button>
+        <button class="arrow2" onclick="updateLeftBasket()">
+            <img class="leftArrow" src="img/left_arrow.png" alt="">
+        </button>
+
+        <div class="leftBasket">
+            <P class="quantity2">0</P>
+            <P>Basket 2</P>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
